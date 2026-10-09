@@ -1,0 +1,54 @@
+
+@import "tailwindcss";
+
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Manrope:wght@200..800&display=swap");
+@theme{
+  /* Custom font */
+  --font-bricolage: var(--bricolage);
+
+  /* Custom colors */
+  --color-black-100: var(--black-100);
+  --color-black-200: var(--black-200);
+  --color-black-300: var(--black-300);
+  --color-primary: var(--primary-color);
+  --color-secondary: var(--secondary-color);
+  --color-background: var(--background);
+
+  /* Custom spacing */
+  --spacing-7\.5: 30px;
+  --spacing-12\.5: 50px;
+  --spacing-15: 60px;
+  --spacing-25: 100px;
+}
+
+/* Center the container and preserve the old side padding */
+@utility container {
+  width: 100%;
+  margin-inline: auto;
+  padding-inline: 12px;
+}
+
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1320px) {
+  .container {
+    max-width: 1320px;
+  }
+}
+

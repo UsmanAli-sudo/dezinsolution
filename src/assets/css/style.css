@@ -1,0 +1,293 @@
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Manrope:wght@200..800&display=swap");
+/* 
+@tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+
+:root {
+  --black-100: #101010;
+  --black-200: #070707;
+  --black-300: #1f1f1f;
+  --secondary-color: #000000;
+  --primary-color: #ff4f01;
+  --background: #fff6ec;
+  --bricolage: Bricolage Grotesque, sans-serif;
+  --paper:#efede5;
+  --paper-dim:#e6e3d8;
+  --ink:#1b1b18;
+  --ink-soft:#514f47;
+  --rule:#c9c4b4;
+  --cobalt:#2a3fcb;
+  --ochre:#ff5100;
+  --sage:#3f6b57;
+  --coral:#e5573f;
+  --radius:8px;
+  --maxw:1180px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: var(--main-color);
+  background: var(--background);
+  font-weight: 400;
+  line-height: 30px;
+  font-size: 16px;
+  font-family: "Manrope", sans-serif;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--black-100);
+  font-family: Bricolage Grotesque, sans-serif;
+}
+
+.btn {
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  margin: 0 5px 10px 0;
+  overflow: visible;
+  border-radius: 50px;
+  padding: 17px 34px;
+  text-align: center;
+  text-transform: none;
+  transition: 0.3s;
+  box-shadow: 0 4px 0 0 rgba(0, 0, 0, 0.25);
+  transition: all 0.5s;
+}
+
+.accordion-item [data-open="true"] span {
+  background-color: var(--primary-color);
+}
+
+.is-sticky {
+  animation: slideDown 0.35s ease-out;
+}
+@keyframes slideDown {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+.slideUp {
+  animation: slideUp 0.35s ease-out;
+}
+@keyframes slideUp {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-100%);
+  }
+}
+
+.logo-slider {
+  mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
+}
+.logos-slide {
+  display: flex;
+  animation: 45s slide infinite linear;
+}
+
+.logos-slide img {
+  max-width: 130px;
+  height: auto;
+  margin: 0 40px;
+  object-fit: contain;
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+/* For Slider */
+
+
+ .services{padding-bottom:40px;}
+  .service{
+    border-top:1px solid var(--rule);
+    padding:44px 0;
+    display:grid;
+    grid-template-columns:220px 1fr;
+    gap:40px;
+    transition:background .2s ease;
+    overflow:hidden;
+    position: relative;
+  }
+  .service:hover{background:rgba(0,0,0,0.015);}
+  .service:last-child{border-bottom:1px solid var(--rule);}
+  .service h3{transition:transform .2s ease;}
+  .service:hover h3{transform:translateX(4px);}
+  .service-meta{padding-top:4px;}
+  .spec-tag{
+    font-family:'IBM Plex Mono',monospace;font-size:0.74rem;
+    text-transform:uppercase;letter-spacing:0.05em;
+    padding:5px 9px;border-radius:var(--radius);
+    display:inline-block;color:var(--paper);margin-bottom:14px;
+    transform:rotate(-2deg);
+  }
+  .tag-cobalt{background:var(--cobalt);}
+  .tag-ochre{background:var(--ochre);}
+  .tag-sage{background:var(--sage);}
+
+  .service h3{font-size:1.35rem;font-weight:600;line-height:1.15;max-width:16ch;}
+  .service-body p{color:var(--ink-soft);max-width:66ch;margin:16px 0 18px;}
+  .service-body strong{color:var(--ink);font-weight:600;}
+
+  .kw-row{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:24px;}
+  .kw{
+    font-family:'IBM Plex Mono',monospace;font-size:0.72rem;
+    border:1px solid var(--rule);padding:4px 10px;border-radius:20px;
+    color:var(--ink-soft);
+  }
+
+  .shot-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;}
+  .shot{
+    position:relative;aspect-ratio:1/1;
+    background:var(--paper-dim);
+    display:flex;align-items:center;justify-content:center;
+    overflow:hidden;border-radius:var(--radius);
+    transition:transform .2s ease, box-shadow .2s ease;
+  }
+  .shot img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+  .shot:hover{
+    transform:rotate(-2deg) scale(1.045);
+    box-shadow:0 10px 20px -8px rgba(27,27,24,0.25);
+    z-index:2;
+  }
+  .shot:nth-child(even):hover{transform:rotate(2deg) scale(1.045);}
+  .shot::before,.shot::after,.shot .c2::before,.shot .c2::after{content:"";}
+  .crop{position:absolute;width:9px;height:9px;}
+  .crop.tl{top:6px;left:6px;border-top:1px solid var(--ink-soft);border-left:1px solid var(--ink-soft);}
+  .crop.tr{top:6px;right:6px;border-top:1px solid var(--ink-soft);border-right:1px solid var(--ink-soft);}
+  .crop.bl{bottom:6px;left:6px;border-bottom:1px solid var(--ink-soft);border-left:1px solid var(--ink-soft);}
+  .crop.br{bottom:6px;right:6px;border-bottom:1px solid var(--ink-soft);border-right:1px solid var(--ink-soft);}
+  .shot-label{
+    font-family:'IBM Plex Mono',monospace;font-size:0.62rem;text-align:center;
+    color:var(--ink-soft);text-transform:uppercase;letter-spacing:0.03em;line-height:1.4;
+    padding:6px;
+  }
+  .shot span.n{display:block;font-size:0.9rem;color:var(--ink);margin-bottom:2px;}
+
+  /* =========================
+   IMAGE AUTO CAROUSEL
+========================= */
+
+.shot-carousel {
+  width: 80%;
+  overflow: hidden;
+  position: relative;
+  margin-top: 25px;
+}
+
+.shot-track {
+  display: flex;
+  gap: 16px;
+  width: max-content;
+
+  animation: logoScroll 20s linear infinite;
+}
+
+/* Show 4 images */
+.shot {
+  width: 220px;
+  height: 160px;
+  flex-shrink: 0;
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+.shot img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+/* Smooth infinite movement */
+@keyframes logoScroll {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(calc(-5 * 220px - 5 * 16px));
+  }
+}
+
+/* Pause when mouse is over carousel */
+.shot-carousel:hover .shot-track {
+  animation-play-state: paused;
+}
+
+
+/* =========================
+   TABLET
+========================= */
+
+@media (max-width: 900px) {
+
+  .shot {
+    width: 190px;
+    height: 140px;
+  }
+
+  @keyframes logoScroll {
+    from {
+      transform: translateX(0);
+    }
+
+    to {
+      transform: translateX(calc(-5 * 190px - 5 * 16px));
+    }
+  }
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 600px) {
+
+  .shot {
+    width: 160px;
+    height: 120px;
+  }
+
+  @keyframes logoScroll {
+    from {
+      transform: translateX(0);
+    }
+
+    to {
+      transform: translateX(calc(-5 * 160px - 5 * 16px));
+    }
+  }
+}
+
+
+
