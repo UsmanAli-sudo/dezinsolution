@@ -1,5 +1,5 @@
 import { useState } from "react";
-import logo from "../assets/images/logos/logo.png"
+import logo from "../assets/images/logos/logo.webp"
 
 export default function Navbar() {
 const [menuOpen, setMenuOpen] = useState(false);

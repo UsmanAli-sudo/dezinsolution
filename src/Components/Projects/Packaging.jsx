@@ -1,11 +1,11 @@
 import React from 'react'
-import p1 from "../../assets/images/packaging/p_1.png";
-import p2 from "../../assets/images/packaging/p_2.jpeg";
-import p3 from "../../assets/images/packaging/p_3.jpeg";
-import p4 from "../../assets/images/packaging/p_4.png";
-import p5 from "../../assets/images/packaging/p_5.jpeg";
-import p6 from "../../assets/images/packaging/p_6.jpeg";
-import p7 from "../../assets/images/packaging/p_7.jpg";
+import p1 from "../../assets/images/packaging/p_1.webp";
+import p2 from "../../assets/images/packaging/p_2.webp";
+import p3 from "../../assets/images/packaging/p_3.webp";
+import p4 from "../../assets/images/packaging/p_4.webp";
+import p5 from "../../assets/images/packaging/p_5.webp";
+import p6 from "../../assets/images/packaging/p_6.webp";
+import p7 from "../../assets/images/packaging/p_7.webp";
 
 const packagingImages = [p1, p2, p3, p4, p5, p6, p7];
 

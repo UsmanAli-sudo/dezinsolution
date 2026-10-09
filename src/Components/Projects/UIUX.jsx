@@ -1,6 +1,6 @@
 import React from 'react'
-import ui1 from "../../assets/images/UIUX/UI_1.jpeg"; 
-import ui2 from "../../assets/images/UIUX/UI_2.jpeg";
+import ui1 from "../../assets/images/UIUX/UI_1.webp";
+import ui2 from "../../assets/images/UIUX/UI_2.webp";
 
 export default function UIUX() {
   return (

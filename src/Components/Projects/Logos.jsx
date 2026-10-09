@@ -1,23 +1,25 @@
 
 import React from "react";
 
-import logo1 from "../../assets/images/logos/logo1.jpg";
-import logo2 from "../../assets/images/logos/logo2.jpg";
-import logo3 from "../../assets/images/logos/logo3.jpg";
-import logo4 from "../../assets/images/logos/logo4.jpg";
-import logo5 from "../../assets/images/logos/logo5.jpg";
-import logo6 from "../../assets/images/logos/logo6.jpg";
-import logo7 from "../../assets/images/logos/logo7.jpg";
-import logo8 from "../../assets/images/logos/logo8.jpg";
-import logo9 from "../../assets/images/logos/logo9.jpg";
-import logo10 from "../../assets/images/logos/logo10.jpg";
-import logo11 from "../../assets/images/logos/logo11.jpg";
-import logo12 from "../../assets/images/logos/logo12.jpg";
-import logo13 from "../../assets/images/logos/logo13.jpg";
-import logo14 from "../../assets/images/logos/logo14.jpg";
-import logo15 from "../../assets/images/logos/logo15.jpg";
-import logo16 from "../../assets/images/logos/logo16.jpg";
-import logo17 from "../../assets/images/logos/logo17.jpg";
+
+import logo1 from "../../assets/images/logos/logo1.webp";
+import logo2 from "../../assets/images/logos/logo2.webp";
+import logo3 from "../../assets/images/logos/logo3.webp";
+import logo4 from "../../assets/images/logos/logo4.webp";
+import logo5 from "../../assets/images/logos/logo5.webp";
+import logo6 from "../../assets/images/logos/logo6.webp";
+import logo7 from "../../assets/images/logos/logo7.webp";
+import logo8 from "../../assets/images/logos/logo8.webp";
+import logo9 from "../../assets/images/logos/logo9.webp";
+import logo10 from "../../assets/images/logos/logo10.webp";
+import logo11 from "../../assets/images/logos/logo11.webp";
+import logo12 from "../../assets/images/logos/logo12.webp";
+import logo13 from "../../assets/images/logos/logo13.webp";
+import logo14 from "../../assets/images/logos/logo14.webp";
+import logo15 from "../../assets/images/logos/logo15.webp";
+import logo16 from "../../assets/images/logos/logo16.webp";
+import logo17 from "../../assets/images/logos/logo17.webp";
+
 
 const logos = [
   logo1, logo2, logo3, logo4, logo5, logo6,

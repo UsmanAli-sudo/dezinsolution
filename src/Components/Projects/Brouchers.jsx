@@ -1,13 +1,13 @@
 import React from 'react'
-import b1 from "../../assets/images/brouchers/b_1.jpg";
-import b2 from "../../assets/images/brouchers/b_2.jpg";
-import b3 from "../../assets/images/brouchers/b_3.jpg";
-import b4 from "../../assets/images/brouchers/b_4.jpg";
-import b5 from "../../assets/images/brouchers/b_5.jpg";
-import b6 from "../../assets/images/brouchers/b_6.jpg";
-import b7 from "../../assets/images/brouchers/b_7.jpg";
-import b8 from "../../assets/images/brouchers/b_8.jpg";
-import b9 from "../../assets/images/brouchers/b_9.jpg";
+import b1 from "../../assets/images/brouchers/b_1.webp";
+import b2 from "../../assets/images/brouchers/b_2.webp";
+import b3 from "../../assets/images/brouchers/b_3.webp";
+import b4 from "../../assets/images/brouchers/b_4.webp";
+import b5 from "../../assets/images/brouchers/b_5.webp";
+import b6 from "../../assets/images/brouchers/b_6.webp";
+import b7 from "../../assets/images/brouchers/b_7.webp";
+import b8 from "../../assets/images/brouchers/b_8.webp";
+import b9 from "../../assets/images/brouchers/b_9.webp";
 
 const brochureImages = [b1, b2, b3, b4, b5, b6, b7, b8, b9];
 

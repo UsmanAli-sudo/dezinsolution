@@ -1,9 +1,9 @@
 import React from 'react'
 import scribble from "../assets/images/shapes/work-scribble.png" 
-import logo13 from "../assets/images/logos/logo13.jpg";
-import logo10 from "../assets/images/logos/logo10.jpg";
-import logo11 from "../assets/images/logos/logo11.jpg";
-import logo14 from "../assets/images/logos/logo14.jpg";
+import logo13 from "../assets/images/logos/logo10.webp";
+import logo10 from "../assets/images/logos/logo11.webp";
+import logo11 from "../assets/images/logos/logo13.webp";
+import logo14 from "../assets/images/logos/logo14.webp";
 
 
 const logos = [logo13, logo10, logo11, logo14];
@@ -20,6 +20,7 @@ export default function RecentWork() {
         <img
           key={logo}
           src={logo}
+          loading='lazy'
           alt={`Logo design ${index + 1}`}
           className="rounded-[10px] border-8 border-[#ccc]"
         />

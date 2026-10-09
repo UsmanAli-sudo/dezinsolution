@@ -1,13 +1,13 @@
-import web1 from "../../assets/images/websites/web_1.jpg";
-import web2 from "../../assets/images/websites/web_2.jpg";
-import web3 from "../../assets/images/websites/web_3.jpg";
-import web4 from "../../assets/images/websites/web_4.jpg";
-import web5 from "../../assets/images/websites/web_5.jpg";
-import web6 from "../../assets/images/websites/web_6.jpg";
+import web1 from "../../assets/images/websites/web_1.webp";
+import web2 from "../../assets/images/websites/web_2.webp";
+import web3 from "../../assets/images/websites/web_3.webp";
+import web4 from "../../assets/images/websites/web_4.webp";
+import web5 from "../../assets/images/websites/web_5.webp";
+import web6 from "../../assets/images/websites/web_6.webp";
 
 const websiteImages = [web1, web2, web3, web4, web5, web6];
 
-import React from 'react'
+import React from "react";
 
 export default function Websites() {
   return (
@@ -47,4 +47,3 @@ export default function Websites() {
     </article>
   );
 }
-

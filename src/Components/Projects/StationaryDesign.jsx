@@ -1,18 +1,18 @@
 
-import businessLogo1 from "../../assets/images/business_logos/business_logo_1.jpg";
-import businessLogo2 from "../../assets/images/business_logos/business_logo_2.png";
-import businessLogo3 from "../../assets/images/business_logos/business_logo_3.png";
-import businessLogo4 from "../../assets/images/business_logos/business_logo_4.png";
-import businessLogo5 from "../../assets/images/business_logos/business_logo_5.png";
-import businessLogo6 from "../../assets/images/business_logos/business_logo_6.png";
-import businessLogo7 from "../../assets/images/business_logos/business_logo_7.png";
-import businessLogo8 from "../../assets/images/business_logos/business_logo_8.png";
-import businessLogo9 from "../../assets/images/business_logos/business_logo_9.png";
-import businessLogo10 from "../../assets/images/business_logos/business_logo_10.png";
-import businessLogo11 from "../../assets/images/business_logos/business_logo_11.png";
-import businessLogo12 from "../../assets/images/business_logos/business_logo_12.jpg";
-import businessLogo13 from "../../assets/images/business_logos/business_logo_13.png";
-import businessLogo14 from "../../assets/images/business_logos/business_logo_14.png";
+import businessLogo1 from "../../assets/images/business_logos/business_logo_1.webp";
+import businessLogo2 from "../../assets/images/business_logos/business_logo_2.webp";
+import businessLogo3 from "../../assets/images/business_logos/business_logo_3.webp";
+import businessLogo4 from "../../assets/images/business_logos/business_logo_4.webp";
+import businessLogo5 from "../../assets/images/business_logos/business_logo_5.webp";
+import businessLogo6 from "../../assets/images/business_logos/business_logo_6.webp";
+import businessLogo7 from "../../assets/images/business_logos/business_logo_7.webp";
+import businessLogo8 from "../../assets/images/business_logos/business_logo_8.webp";
+import businessLogo9 from "../../assets/images/business_logos/business_logo_9.webp";
+import businessLogo10 from "../../assets/images/business_logos/business_logo_10.webp";
+import businessLogo11 from "../../assets/images/business_logos/business_logo_11.webp";
+import businessLogo12 from "../../assets/images/business_logos/business_logo_12.webp";
+import businessLogo13 from "../../assets/images/business_logos/business_logo_13.webp";
+import businessLogo14 from "../../assets/images/business_logos/business_logo_14.webp";
 
 
 

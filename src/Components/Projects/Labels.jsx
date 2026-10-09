@@ -1,14 +1,14 @@
 import React from 'react'
-import l1 from "../../assets/images/labels/l_1.png";
-import l2 from "../../assets/images/labels/l_2.png";
-import l3 from "../../assets/images/labels/l_3.png";
-import l4 from "../../assets/images/labels/l_4.png";
-import l5 from "../../assets/images/labels/l_5.jpg";
-import l6 from "../../assets/images/labels/l_6.png";
-import l7 from "../../assets/images/labels/l_7.png";
-import l8 from "../../assets/images/labels/l_8.png";
-import l9 from "../../assets/images/labels/l_9.png";
-import l10 from "../../assets/images/labels/l_10.png";
+import l1 from "../../assets/images/labels/l_1.webp";
+import l2 from "../../assets/images/labels/l_2.webp";
+import l3 from "../../assets/images/labels/l_3.webp";
+import l4 from "../../assets/images/labels/l_4.webp";
+import l5 from "../../assets/images/labels/l_5.webp";
+import l6 from "../../assets/images/labels/l_6.webp";
+import l7 from "../../assets/images/labels/l_7.webp";
+import l8 from "../../assets/images/labels/l_8.webp";
+import l9 from "../../assets/images/labels/l_9.webp";
+import l10 from "../../assets/images/labels/l_10.webp";
 
 const labelImages = [l1, l2, l3, l4, l5, l6, l7, l8, l9, l10];
 

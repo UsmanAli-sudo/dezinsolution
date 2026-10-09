@@ -1,11 +1,11 @@
 import React from 'react'
-import sm1 from "../../assets/images/social_media/SM_1.png";
-import sm2 from "../../assets/images/social_media/SM_2.png";
-import sm3 from "../../assets/images/social_media/SM_3.jpg";
-import sm4 from "../../assets/images/social_media/SM_4.jpg";
-import sm5 from "../../assets/images/social_media/SM_5.jpg";
-import sm6 from "../../assets/images/social_media/SM_6.png";
-import sm7 from "../../assets/images/social_media/SM_7.png";
+import sm1 from "../../assets/images/social_media/SM_1.webp";
+import sm2 from "../../assets/images/social_media/SM_2.webp";
+import sm3 from "../../assets/images/social_media/SM_3.webp";
+import sm4 from "../../assets/images/social_media/SM_4.webp";
+import sm5 from "../../assets/images/social_media/SM_5.webp";
+import sm6 from "../../assets/images/social_media/SM_6.webp";
+import sm7 from "../../assets/images/social_media/SM_7.webp";
 
 const socialMediaImages = [sm1, sm2, sm3, sm4, sm5, sm6, sm7];
 
